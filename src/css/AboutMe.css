@@ -1,0 +1,13 @@
+.AboutMe_Containor {
+    /* background-color: aqua; */
+
+    width: 100%;
+    height: 30vh;
+}
+
+.AboutMe_Box{
+    width: 60%;
+    height: 100%;
+        
+    margin: 0 auto;
+}

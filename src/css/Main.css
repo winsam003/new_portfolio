@@ -1,0 +1,14 @@
+.Main_Containor {
+    width: 100vw;
+    height: 55vh;
+
+    /* background-color: cadetblue; */
+}
+
+.Main_Box{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+
+    background-color: antiquewhite;
+}
