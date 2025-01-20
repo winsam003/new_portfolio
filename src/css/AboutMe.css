@@ -19,7 +19,8 @@
     display: flex;
     justify-content: center;
 
-    padding-top: 3rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
 
     font-size: 40px;
 
@@ -32,7 +33,36 @@
 .AboutMe_SecBox{
     height: 60%;
 
+    width: 100%;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+}
+
+.AboutMe_SecBox_inner{
+    display: grid;
+
+    grid-template-columns: 1fr 3fr;
+
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.AboutMe_SecBox_innerDetail{
+    display: grid;
+
+    grid-template-rows: 2fr 1fr;
+}
+
+.AboutMe_SecBox_innerDetail>:nth-child(1){
+    font-size: large;
+}
+.AboutMe_SecBox_innerDetail>:nth-child(2){
+    font-size: small;
+}
+
+.AboutMe_SecBox_inner_icon{
+    font-size: 5rem;
 }
