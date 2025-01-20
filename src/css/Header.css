@@ -19,9 +19,9 @@
     margin-top: 2rem;
     margin-left: 1rem;
 
-    font-size: larger;
+    font-size: x-large;
 
-    color: antiquewhite;
+    color: white;
 
     cursor: pointer;
 }
@@ -30,12 +30,22 @@
     margin-top: 2rem;
     margin-right: 1rem;
 
-    font-size: smaller;
+    font-size: larger;
 }
 
 .Header_menuTap{
     margin-left: 1rem;
 
-    color: antiquewhite;
+    color: gainsboro;
     cursor: pointer;
+}
+
+.Header_menu1:hover{
+    color: white;
+}
+.Header_menu2:hover{
+    color: white;
+}
+.Header_menu3:hover{
+    color: white;
 }

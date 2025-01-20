@@ -11,3 +11,28 @@
         
     margin: 0 auto;
 }
+
+.AboutMe_FirBox{
+
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 3rem;
+
+    font-size: 40px;
+
+}
+
+.AboutMe_FirBox>:last-child{
+    border-bottom: 1px solid gray;
+}
+
+.AboutMe_SecBox{
+    height: 60%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}

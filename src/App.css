@@ -9,13 +9,19 @@
   width: 100vw;
   margin-left: -20vw;
 
-  background-color: darkblue;
+  /* background-color: darkblue; */
+
+  background-image: url("../public/BGPicture/pexels-nickoloui-2506947.jpg");
+  background-position: center;
+  background-size: cover;
 }
+
+
 .App_comm_Bottom {
   width: 100vw;
   margin-left: -20vw;
 
-  background-color: darkslategray;
+  /* background-color: darkslategray; */
 }
 
 .App_CommCenter{
@@ -24,4 +30,6 @@
     
   margin: 0 auto;
   background-color: antiquewhite;
+
+  
 }
