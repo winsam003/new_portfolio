@@ -108,4 +108,7 @@
     .Projects_Containor{
         height: auto;
     }
+    .Projects_url{
+        word-wrap: break-word;
+    }
 }

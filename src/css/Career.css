@@ -163,6 +163,7 @@
 
     .Career_Info_url{
         font-size: x-small;
+        word-wrap: break-word;
     }
 
     .Career_Info_subject{
