@@ -100,8 +100,6 @@
 
 .Career_Info_subject{
     display: flex;
-    
-    
 }
 .Career_Info_subject>div{
     margin-right: 1rem;
@@ -151,6 +149,24 @@
 @media(max-width: 1000px){
     .Career_Info_Perform{
         font-size: xx-small;
+    }
+
+    .Career_Career{
+        display: none;
+    }
+
+    .Career_SecBox{
+        display: inherit;
+    
+        height: calc(150% / 2);
+    }
+
+    .Career_Info_url{
+        font-size: x-small;
+    }
+
+    .Career_Info_subject{
+        font-size: x-small;
     }
     
 }
