@@ -2,5 +2,23 @@
     width: 100%;
     height: 100vh;
 
-    /* background-color: chocolate; */
+    background-color: #F9C51D;
+}
+
+.Career_FirBox{
+
+    /* height: 20%; */
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+
+    font-size: 40px;
+}
+
+
+.Career_FirBox>:last-child{
+    border-bottom: 1px solid gray;
 }

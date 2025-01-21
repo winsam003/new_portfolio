@@ -48,6 +48,7 @@
     text-align: center;
     align-items: center;
     vertical-align: middle;
+    justify-content: center;
 }
 
 .AboutMe_SecBox_innerDetail{
@@ -64,5 +65,9 @@
 }
 
 .AboutMe_SecBox_inner_icon{
-    font-size: 5rem;
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: right;
+    margin-right: -4rem;
 }

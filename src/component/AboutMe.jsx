@@ -1,5 +1,9 @@
 import "../css/AboutMe.css"
 import { FaPerson } from "react-icons/fa6";
+import { FaBirthdayCake } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { FaGraduationCap } from "react-icons/fa6";
 
 export default function AboutMe(){
     return (
@@ -18,28 +22,28 @@ export default function AboutMe(){
                         </div>
                     </div>
                     <div className="AboutMe_SecBox_inner">
-                        <div></div>
+                        <div className="AboutMe_SecBox_inner_icon"><FaBirthdayCake /></div>
                         <div className="AboutMe_SecBox_innerDetail">
                             <div>생년월일</div>
                             <div>1994.10.22</div>
                         </div>
                     </div>
                     <div className="AboutMe_SecBox_inner">
-                        <div></div>
+                        <div className="AboutMe_SecBox_inner_icon"><FaLocationDot /></div>
                         <div className="AboutMe_SecBox_innerDetail">
                             <div>위치</div>
                             <div>경기도 성남시</div>
                         </div>
                     </div>
                     <div className="AboutMe_SecBox_inner">
-                        <div></div>
+                        <div className="AboutMe_SecBox_inner_icon"><MdEmail /></div>
                         <div className="AboutMe_SecBox_innerDetail">
                             <div>contact</div>
                             <div>winsam003@gamil.com</div>
                         </div>
                     </div>
                     <div className="AboutMe_SecBox_inner">
-                        <div></div>
+                        <div className="AboutMe_SecBox_inner_icon"><FaGraduationCap /></div>
                         <div className="AboutMe_SecBox_innerDetail">
                             <div>학력</div>
                             <div>한양사이버대학교 3학년 재학</div>
