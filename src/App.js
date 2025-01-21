@@ -9,11 +9,22 @@ import Footer from './component/Footer';
 
 
 function App() {
+
+  const moveScroll = (getClassName) => {
+    const carrerClass = document.querySelector(`.${getClassName}`);
+
+    carrerClass.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    })
+  };
+
+
   return (
     <div className="App">
       <div className="App_comm_Top">
-        <Header />
-        <Main /> 
+        <Header moveScroll={moveScroll} />
+        <Main moveScroll={moveScroll} /> 
       </div>
       <div className="App_comm_Bottom">
         <AboutMe />

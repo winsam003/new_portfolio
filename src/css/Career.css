@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
 
-    background-color: #F9C51D;
+    background-color: #F5F5F5;
 }
 
 .Career_FirBox{
@@ -21,4 +21,129 @@
 
 .Career_FirBox>:last-child{
     border-bottom: 1px solid gray;
+}
+
+.Career_SecBox{
+    display: grid;
+
+    grid-template-columns: 1fr 3fr;
+
+    height: calc(150% / 2);
+}
+
+.Career_SecBox>:first-child{
+    width: 100%;
+    height: 100%;
+
+    /* background-color: antiquewhite; */
+}
+
+.Career_Career{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-right: 1px solid;
+}
+
+.Career_Career>:first-child{
+    width: 90%;
+    height: 80%;
+    border: 0.5px solid gray;
+    border-radius: 100%;
+
+    background-color: white;
+}
+
+.Career_Career2_img{
+    background-image: url("../image/green.svg");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.Career_Career1_img{
+    background-image: url("../image/urbanlt.svg");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.Career_Info_Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 20rem;
+
+    /* background-color: white; */
+
+    /* border-left: 1px solid; */
+    margin-left: 2rem;
+}
+
+.Career_Info_Title{
+    font-size: larger;
+}
+
+.Career_Info_period{
+    font-size: small;
+    color: gray;
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Career_Info_subTitle{
+    font-size: medium;
+}
+
+.Career_Info_subject{
+    display: flex;
+    
+    
+}
+.Career_Info_subject>div{
+    margin-right: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: auto;
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+
+
+    border: 1px none;
+    border-radius: 10px;
+
+    background-color: black;
+    color: white;
+}
+
+.Career_Info_Perform::after{
+    content: "";
+    position: absolute; /* 위치를 자유롭게 조정 */
+    left: 0; /* 컨테이너의 왼쪽에 고정 */
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: black;
+}
+
+.Career_Info_Perform {
+    position: relative; /* 부모 요소에 relative를 추가해야 자식이 기준점을 가짐 */
+    padding-left: 10px; /* 세로선과 텍스트 간 여백 */
+
+    font-size: medium;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Career_Info_url{
+    margin-bottom: 1rem;
+    padding-left: 14px;
 }

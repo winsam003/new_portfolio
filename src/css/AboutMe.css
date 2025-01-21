@@ -19,8 +19,8 @@
     display: flex;
     justify-content: center;
 
-    padding-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 1rem;
+    /* margin-bottom: 2rem; */
 
     font-size: 40px;
 
@@ -69,5 +69,5 @@
 
     display: flex;
     justify-content: right;
-    margin-right: -4rem;
+    /* margin-right: -2rem; */
 }

@@ -1,6 +1,9 @@
 import "../css/Main.css"
 
-export default function Main() {
+export default function Main({moveScroll}) {
+
+    
+
     return (
         <div className="Main_Containor">
             <div className="Main_Box">
@@ -12,7 +15,7 @@ export default function Main() {
                 <div className="Main_Box2">
                     <div className="Main_Box2Fir">안녕하세요.</div>
                     <div className="Main_Box2Sec">프론트, 백 웹 개발자 최승삼입니다.</div>
-                    <span className="Main_Box2Thi">더 알아보기 ↓</span>
+                    <span className="Main_Box2Thi" onClick={()=>moveScroll("Career_Containor")}>더 알아보기 ↓</span>
                 </div>
             </div>
         </div>

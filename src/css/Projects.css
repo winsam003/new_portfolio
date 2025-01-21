@@ -3,4 +3,98 @@
     height: 100vh;
 
     background-color: #F5F5F5;
+
+    padding-top: 2rem;
+}
+
+.Projects_FirBox{
+
+    /* height: 20%; */
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+
+    font-size: 40px;
+}
+
+.Projects_GridBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Projects_ProjectBox{
+    border: 1px solid gray;
+    border-radius: 1rem;
+
+    width: 90%;
+    height: auto;
+
+    padding: 1rem;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+    box-shadow: 0 0 .5rem 0 rgba(68, 68, 68, .4);
+
+}
+
+.Projects_Title{
+    margin-bottom: 1rem;
+}
+
+.Projects_Title>span{
+    border: 1px solid none;
+    border-radius: 10px;
+
+    background-color: #F94148;
+    color: white;
+
+    padding: 0.5rem;
+
+}
+
+.Projects_scale{
+    font-size: small;
+    color: gray;
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    border-bottom: 1px solid gray;
+}
+
+.Projects_Info{
+    font-size: small;
+}
+
+.Projects_skills{
+    border: 1px solid #FBDC77;
+    border-radius: 10px;
+
+    background-color: #FEF3D2;
+
+    padding: 0.5rem;
+
+    font-size: small;
+}
+
+.Projects_url{
+    position: relative; /* 부모 요소에 relative를 추가해야 자식이 기준점을 가짐 */
+    padding-left: 10px; /* 세로선과 텍스트 간 여백 */
+
+    font-size: medium;
+
+    margin-bottom: 1rem;
+}
+
+.Projects_url::after{
+    content: "";
+    position: absolute; /* 위치를 자유롭게 조정 */
+    left: 0; /* 컨테이너의 왼쪽에 고정 */
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #258DDB;
 }
