@@ -98,3 +98,14 @@
     height: 100%;
     background-color: #258DDB;
 }
+
+@media(max-width: 1000px){
+    .Projects_GridBox{
+        display: inherit;
+        /* grid-template-rows: 1fr 1fr; */
+    }
+
+    .Projects_Containor{
+        height: auto;
+    }
+}

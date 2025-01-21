@@ -147,3 +147,10 @@
     margin-bottom: 1rem;
     padding-left: 14px;
 }
+
+@media(max-width: 1000px){
+    .Career_Info_Perform{
+        font-size: xx-small;
+    }
+    
+}

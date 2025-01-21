@@ -71,3 +71,9 @@
     justify-content: right;
     /* margin-right: -2rem; */
 }
+
+@media(max-width: 1000px){
+    .AboutMe_Containor{
+        display: none;
+    }
+}

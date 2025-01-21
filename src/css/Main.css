@@ -79,3 +79,12 @@
 
     cursor: pointer;
 }
+
+@media(max-width: 1000px){
+    .Main_Box1{
+        font-size: large;
+    }
+    .Main_Box2{
+        font-size: large;
+    }
+}

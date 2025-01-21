@@ -20,3 +20,9 @@
 .Footer_icon{
     margin-right: 0.5rem;
 }
+
+@media(max-width: 1000px){
+    .FooterBox{
+        font-size: xx-small;
+    }
+}

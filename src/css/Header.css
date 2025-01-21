@@ -66,3 +66,9 @@
 .Header_icon:hover{
     color: grey;
 }
+
+@media(max-width: 1000px){
+    .Header_Box{
+        display: none;
+    }
+}
