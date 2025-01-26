@@ -46,7 +46,7 @@ export default function AboutMe(){
                         <div className="AboutMe_SecBox_inner_icon"><FaGraduationCap /></div>
                         <div className="AboutMe_SecBox_innerDetail">
                             <div>학력</div>
-                            <div>한양사이버대학교 3학년 재학</div>
+                            <div>한양사이버대학교 (컴퓨터공학 과) 3학년 재학</div>
                         </div>
                     </div>
                 </div>
