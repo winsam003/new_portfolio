@@ -21,9 +21,19 @@ export default function Career() {
                             <div>신규 개발</div>
                         </div>
                         <div>
-                            <div className="Career_Info_Perform">아산스포츠센터, 수원도시공사, 국립수목원, 대전시설관리공단, 통영청소년체육센터 유지보수</div>
+                            <div className="Career_Info_Perform">아산스포츠센터, 수원도시공사, 국립수목원, 대전시설관리공단, 통영청소년체육센터, 진명스포아트 유지보수</div>
+                            <ul className="Career_Info_active">
+                                <li>아산스포츠센터 계좌검증 속도 개선</li>
+                                <li>국립수목원 차량 조회 API 속도 개선</li>
+                                <li>국립수목원 예약 마감일 추가 개발 건</li>
+                                <li>수원도시공사 마이페이지 조회 속도 개선</li>
+                            </ul>
                             {/* <div className="Career_Info_url"><a>url뿌리기</a></div> */}
                             <div className="Career_Info_Perform">KBS비즈니스 프로젝트, 피트모아 프로젝트 신규개발 참여</div>
+                            <ul className="Career_Info_active">
+                                <li>KBS비즈니스 프로젝트 자기신고서 스키마 구성, API, 관리자 설정화면 Front 구현(JSP)</li>
+                                <li>피트모아 프로젝트 Front 구현 (React) </li>
+                            </ul>
                             {/* <div className="Career_Info_url"><a>url뿌리기</a></div> */}
                         </div>
                     </div>

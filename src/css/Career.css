@@ -148,6 +148,10 @@
     padding-left: 14px;
 }
 
+.Career_Info_active{
+    font-size: small;
+}
+
 @media(max-width: 1000px){
     .Career_Info_Perform{
         font-size: xx-small;

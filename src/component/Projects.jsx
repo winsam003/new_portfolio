@@ -37,6 +37,18 @@ export default function Projects() {
                         <div className="Projects_url"><a href="https://winsam003.github.io/new_portfolio/">https://winsam003.github.io/new_portfolio/</a></div>
                         <div className="Projects_skills">HTML, CSS, JS, REACT, Git</div>
                     </div>
+                    <div className="Projects_ProjectBox">
+                        <div className="Projects_Title"><span>리그오브레전드 API 구현</span></div>
+                        <div className="Projects_scale">2025.01 (1인 프로젝트)</div>
+                        <div className="Projects_subTitle">리그오브레전드 API 개발</div>
+                        <div className="Projects_Info">
+                            <ul>
+                                <li>유저 정보 조회, 최근 매치 정보 조회 구현</li>
+                            </ul>
+                        </div>
+                        <div className="Projects_url"><a href="https://github.com/winsam003/LOL_API.git">https://github.com/winsam003/LOL_API.git</a></div>
+                        <div className="Projects_skills">Spring Boot 3.4.2, JDK 21</div>
+                    </div>
                 </div>
             </div>
         </div>
