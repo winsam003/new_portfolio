@@ -175,5 +175,9 @@
     .Career_Info_subject{
         font-size: x-small;
     }
+    .Career_Info_Box{
+        height: auto;
+        /* margin-bottom: 2rem; */
+    }
     
 }
